@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+h1{
+    text-align: center;
+    color: green;
+    padding: 20px;
+}
+nav{
+    background-color: lime;
+    display: grid;
+    place-items: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 20px;
+    color: #000;
+    transition: 0.2s ease-in;
+    font-size: 20px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color:green ;
+    
+}
+nav ul li a:hover{
+    color: white;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 30px 20px;
+}
+.item img{
+   width: 400px;
+   height: 300px;
+   cursor: pointer;
+   transition: 0.2s ease;
+}
+.item img:hover{
+    transform: scale(1.04);
+}
+.item h4{
+    padding: 6px;
+    text-align: center;
+   font-size: 20px;
+}
+.item button{
+    margin: 20px;
+    padding: 5px 25px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+    transition: 0.2s;
+}
+.item button:hover{
+    transform: scale(1.04);
+}
+.item2 img{
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    transition: 0.2s ease;
+ }
+ .item2 img:hover{
+     transform: scale(1.04);
+ }
+ .item2 h4{
+     padding: 6px;
+     text-align: center;
+    font-size: 20px;
+ }
+ .item2 button{
+     margin: 20px;
+     padding: 5px 25px;
+     border: none;
+     outline: none;
+     background-color: green;
+     color: white;
+     cursor: pointer;
+     border-radius: 4px;
+     display: block;
+     margin: 0 auto;
+     transition: 0.2s;
+ }
+.item2 button:hover{
+    transform: scale(1.04);
+}
+ .item3 img{
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    transition: 0.2s ease;
+ }
+ .item3 img:hover{
+     transform: scale(1.04);
+ }
+ .item3 h4{
+     padding: 6px;
+     text-align: center;
+    font-size: 20px;
+ }
+ .item3 button{
+     margin: 20px;
+     padding: 5px 25px;
+     border: none;
+     outline: none;
+     background-color: green;
+     color: white;
+     cursor: pointer;
+     border-radius: 4px;
+     display: block;
+     margin: 0 auto;
+     transition: 0.2s;
+ }
+.item3 button:hover{
+    transform: scale(1.04);
+}
+ .item4 img{
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    transition: 0.2s ease;
+ }
+ .item4 img:hover{
+     transform: scale(1.04);
+ }
+ .item4 h4{
+     padding: 6px;
+     text-align: center;
+    font-size: 20px;
+ }
+ .item4 button{
+     margin: 20px;
+     padding: 5px 25px;
+     border: none;
+     outline: none;
+     background-color: green;
+     color: white;
+     cursor: pointer;
+     border-radius: 4px;
+     display: block;
+     margin: 0 auto;
+ }
+ .item5 img{
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    transition: 0.2s ease;
+ }
+ .item5 img:hover{
+     transform: scale(1.04);
+ }
+ .item5 h4{
+     padding: 6px;
+     text-align: center;
+    font-size: 20px;
+ }
+ .item5 button{
+     margin: 20px;
+     padding: 5px 25px;
+     border: none;
+     outline: none;
+     background-color: green;
+     color: white;
+     cursor: pointer;
+     border-radius: 4px;
+     display: block;
+     margin: 0 auto;
+ }
+ .item6 img{
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    transition: 0.2s ease;
+ }
+ .item6 img:hover{
+     transform: scale(1.04);
+ }
+ .item6 h4{
+     padding: 6px;
+     text-align: center;
+    font-size: 20px;
+ }
+ .item6 button{
+     margin: 20px;
+     padding: 5px 25px;
+     border: none;
+     outline: none;
+     background-color: green;
+     color: white;
+     cursor: pointer;
+     border-radius: 4px;
+     display: block;
+     margin: 0 auto;
+ }
+ .item7 img{
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    transition: 0.2s ease;
+ }
+ .item7 img:hover{
+     transform: scale(1.04);
+ }
+ .item7 h4{
+     padding: 6px;
+     text-align: center;
+    font-size: 20px;
+ }
+ .item7 button{
+     margin: 20px;
+     padding: 5px 25px;
+     border: none;
+     outline: none;
+     background-color: green;
+     color: white;
+     cursor: pointer;
+     border-radius: 4px;
+     display: block;
+     margin: 0 auto;
+ }
+ .item8 img{
+    margin-top: 20px;
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    transition: 0.2s ease;
+ }
+ .item8 img:hover{
+     transform: scale(1.04);
+ }
+ .item8 h4{
+     padding: 6px;
+     text-align: center;
+    font-size: 20px;
+ }
+ .item8 button{
+     margin: 20px;
+     padding: 5px 25px;
+     border: none;
+     outline: none;
+     background-color: green;
+     color: white;
+     cursor: pointer;
+     border-radius: 4px;
+     display: block;
+     margin: 0 auto;
+ }
